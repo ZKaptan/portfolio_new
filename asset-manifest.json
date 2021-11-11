@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/portfolio_new/static/css/main.afd7172b.chunk.css",
+    "main.js": "/portfolio_new/static/js/main.2f9f0b28.chunk.js",
+    "main.js.map": "/portfolio_new/static/js/main.2f9f0b28.chunk.js.map",
+    "runtime-main.js": "/portfolio_new/static/js/runtime-main.bcaa2261.js",
+    "runtime-main.js.map": "/portfolio_new/static/js/runtime-main.bcaa2261.js.map",
+    "static/js/2.e2bb8799.chunk.js": "/portfolio_new/static/js/2.e2bb8799.chunk.js",
+    "static/js/2.e2bb8799.chunk.js.map": "/portfolio_new/static/js/2.e2bb8799.chunk.js.map",
+    "index.html": "/portfolio_new/index.html",
+    "static/css/main.afd7172b.chunk.css.map": "/portfolio_new/static/css/main.afd7172b.chunk.css.map",
+    "static/js/2.e2bb8799.chunk.js.LICENSE.txt": "/portfolio_new/static/js/2.e2bb8799.chunk.js.LICENSE.txt",
+    "static/media/css.9a088dd1.png": "/portfolio_new/static/media/css.9a088dd1.png",
+    "static/media/devConnector_logo.d3be4de8.png": "/portfolio_new/static/media/devConnector_logo.d3be4de8.png",
+    "static/media/dk.bbc74fcd.png": "/portfolio_new/static/media/dk.bbc74fcd.png",
+    "static/media/html5.78e553ac.png": "/portfolio_new/static/media/html5.78e553ac.png",
+    "static/media/java.89422da7.png": "/portfolio_new/static/media/java.89422da7.png",
+    "static/media/js.3d09f2e4.png": "/portfolio_new/static/media/js.3d09f2e4.png",
+    "static/media/mongodb.573aff2b.png": "/portfolio_new/static/media/mongodb.573aff2b.png",
+    "static/media/netflix_clone.70153813.png": "/portfolio_new/static/media/netflix_clone.70153813.png",
+    "static/media/node.d99c5dec.png": "/portfolio_new/static/media/node.d99c5dec.png",
+    "static/media/python.f22d1fce.png": "/portfolio_new/static/media/python.f22d1fce.png",
+    "static/media/react-logo.05e48353.png": "/portfolio_new/static/media/react-logo.05e48353.png",
+    "static/media/sorting_visualizer.dc213c9e.png": "/portfolio_new/static/media/sorting_visualizer.dc213c9e.png",
+    "static/media/weather_logo.bf319ba9.png": "/portfolio_new/static/media/weather_logo.bf319ba9.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bcaa2261.js",
+    "static/js/2.e2bb8799.chunk.js",
+    "static/css/main.afd7172b.chunk.css",
+    "static/js/main.2f9f0b28.chunk.js"
+  ]
+}
