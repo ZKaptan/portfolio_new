@@ -58,8 +58,7 @@ const Navbar = () => {
 				</Stack>
 
 				<Spacer />
-				{/* <IconButton ml={2} isRound="true" icon={<FaLinkedin />}></IconButton>
-				<IconButton ml={2} isRound="true" icon={<FaGithub />}></IconButton> */}
+
 				<IconButton
 					ml={2}
 					icon={isDark ? <FaSun /> : <FaMoon />}
@@ -79,7 +78,7 @@ const Navbar = () => {
 									<MenuItem as={Link}>About</MenuItem>
 								</Link>
 								<Link href="#technology">
-									<MenuItem as={Link}>About</MenuItem>
+									<MenuItem as={Link}>Technlogy</MenuItem>
 								</Link>
 								<Link href="#projects">
 									<MenuItem as={Link}>Projects</MenuItem>
