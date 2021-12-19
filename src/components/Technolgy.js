@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Grid, Heading, Image, SimpleGrid } from "@chakra-ui/react";
+import { Container, Grid, Heading, Image } from "@chakra-ui/react";
 import react_logo from "../images/react-logo.png";
 import node_logo from "../images/node.png";
 import javascript_logo from "../images/js.png";
@@ -7,7 +7,7 @@ import html_logo from "../images/html5.png";
 import css_logo from "../images/css.png";
 import python_logo from "../images/python.png";
 import java_logo from "../images/java.png";
-import monogod_logo from "../images/mongodb.png";
+import monogo_logo from "../images/mongodb.png";
 
 const Technolgy = () => {
 	return (
@@ -23,7 +23,8 @@ const Technolgy = () => {
 				<Image src={python_logo}></Image>
 				<Image src={java_logo}></Image>
 				<Image src={node_logo}></Image>
-				<Image src={monogod_logo}></Image>
+				<Image src={monogo_logo}></Image>
+				<Image src={react_logo} />
 			</Grid>
 		</Container>
 	);
