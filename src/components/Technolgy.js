@@ -24,7 +24,6 @@ const Technolgy = () => {
 				<Image src={java_logo}></Image>
 				<Image src={node_logo}></Image>
 				<Image src={monogo_logo}></Image>
-				<Image src={react_logo} />
 			</Grid>
 		</Container>
 	);
