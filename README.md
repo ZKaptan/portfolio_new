@@ -1,4 +1,4 @@
-## My Portfolio
+## My Portfolio 🖼
 
 This is my current devloper portfolio where I show my knowledg, skills, and work. You can also contact me via email. 
 
