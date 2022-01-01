@@ -1,14 +1,24 @@
-import { Container, Heading, Text } from "@chakra-ui/layout";
+import { Container, Text, Box } from "@chakra-ui/layout";
 import React from "react";
 
 const About = () => {
 	return (
-		<Container mt={4} id="about">
-			<Text fontSize="5xl">Deniz Kaptan</Text>
-			<Text>Digital knowledge worker (Student / Developer) </Text>
-			<Heading mt={4} textDecoration="underline" textUnderlineOffset={2} mb={3}>
+		<Container maxW="80%" mt={4} id="about">
+			<Box textAlign="center">
+				<Text fontSize={{ base: "2xl", md: "4xl", lg: "5xl" }}>
+					Deniz Kaptan
+				</Text>
+				<Text>Digital knowledge worker (Student / Developer) </Text>
+			</Box>
+			<Text
+				fontSize="2xl"
+				mt={4}
+				textDecoration="underline"
+				textUnderlineOffset={2}
+				mb={3}
+			>
 				About
-			</Heading>
+			</Text>
 			<Text className="description">
 				Deniz is a student currently studying Computer Science at Dalhouise
 				University. He enjoys the process of identiying a problem, planning an

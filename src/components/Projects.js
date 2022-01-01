@@ -1,18 +1,25 @@
 import React from "react";
-import netflix_clone from "../images/netflix_clone.png";
+import netflix_clone from "../images/netflix-clone.jpg";
 import devConnector_logo from "../images/devConnector_logo.png";
-import weather_logo from "../images/weather_logo.png";
-import sorting_visualizer_logo from "../images/sorting_visualizer.png";
+import houseMarketPlace from "../images/house-market-place.jpg";
+import sorting_visualizer_logo from "../images/lxrcbsv-vVHXeu0YNbk-unsplash.jpg";
 import GridItem from "./GridItem";
-import { Container, Heading, SimpleGrid } from "@chakra-ui/layout";
+import { Container, SimpleGrid, Text } from "@chakra-ui/layout";
 
 const Projects = () => {
 	return (
-		<Container id="projects">
-			<Heading fontSize={25} mt={4} mb={4}>
+		<Container id="projects" maxW="80%">
+			<Text fontSize="xl" mt={4} mb={4}>
 				Projects
-			</Heading>
+			</Text>
 			<SimpleGrid columns={[1, 1, 2]} spacing={6}>
+				<GridItem
+					id="houseMarketPlace"
+					title="House Market Place"
+					thumnail={houseMarketPlace}
+					href="https://github.com/ZKaptan/house-market-place"
+					description="House market place for you to sell/rent and buy homes"
+				></GridItem>
 				<GridItem
 					id="devconnector"
 					title="Dev Connector"
@@ -34,13 +41,6 @@ const Projects = () => {
 					href="https://github.com/ZKaptan/Sorting-Visualizer"
 					description="Interactive sorting visualizer tool"
 				/>
-				<GridItem
-					id="weatherhere"
-					title="Weather Here"
-					thumnail={weather_logo}
-					href="https://github.com/ZKaptan/WeatherHere"
-					description="Display weather data for cities around the world"
-				></GridItem>
 			</SimpleGrid>
 		</Container>
 	);

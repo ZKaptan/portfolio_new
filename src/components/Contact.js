@@ -1,31 +1,43 @@
-import { FormControl, FormLabel } from "@chakra-ui/form-control";
-import { Box, Container, Heading } from "@chakra-ui/layout";
-import {
-	Input,
-	Wrap,
-	WrapItem,
-	Textarea,
-	Button,
-	Form,
-	useColorMode,
-} from "@chakra-ui/react";
-import React, { useState } from "react";
+import { Box, Container, Text } from "@chakra-ui/layout";
+import { Input, Textarea, Button } from "@chakra-ui/react";
+
 import { theme } from "../config/theme";
+import emailjs from "@emailjs/browser";
+import { useRef } from "react";
+import { toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const Contact = () => {
-	const { colorMode } = useColorMode();
-	const isDark = colorMode === "dark";
-	return (
-		<Container mt={8} id="contact">
-			<Heading fontSize={25} mt={4} mb={4}>
-				Contact Me
-			</Heading>
-			<Box>
-				<Heading fontSize={20} mb={2}>
-					Get in touch
-				</Heading>
+	const form = useRef();
 
-				<form action="https://formsubmit.co/dkkaptan20@gmail.com" method="POST">
+	const onSubmit = async (e) => {
+		e.preventDefault();
+
+		try {
+			await emailjs.sendForm(
+				process.env.REACT_APP_SERVICE_ID,
+				process.env.REACT_APP_TEMPLATE_ID,
+				form.current,
+				process.env.REACT_APP_USER_ID
+			);
+			toast.success("Email sent successfully");
+		} catch (error) {
+			toast.error("Email could not be sent");
+		}
+	};
+
+	return (
+		<Container mt={8} maxW="80%" id="contact">
+			<Text mt={4} fontSize="2xl" textDecoration="underline" mb={4}>
+				Contact Me
+			</Text>
+
+			<Box>
+				<Text fontSize="xl" mb={2}>
+					Get in touch
+				</Text>
+				{/* action="https://formsubmit.co/dkkaptan20@gmail.com" method="POST" */}
+				<form ref={form} onSubmit={onSubmit}>
 					<Box display="flex" flexDirection={{ base: "column", md: "row" }}>
 						<Input
 							borderColor={theme.config.initialColorMode}
@@ -33,20 +45,20 @@ const Contact = () => {
 							placeholder="Name"
 							mb={4}
 							mr={2}
-							name="name"
+							name="user_name"
 						></Input>
 						<Input
 							borderColor={theme.config.initialColorMode}
 							placeholder="Email"
 							type="email"
 							mb={4}
-							name="email"
+							name="user_email"
 						></Input>
 					</Box>
 					<Textarea
 						borderColor={theme.config.initialColorMode}
 						placeholder="Description"
-						name="description"
+						name="message"
 					></Textarea>
 					<Button mt={4} size="lg" colorScheme="orange" type="submit">
 						Submit

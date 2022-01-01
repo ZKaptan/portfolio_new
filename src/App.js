@@ -4,18 +4,19 @@ import Technolgy from "./components/Technolgy";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
-import { Fragment } from "react";
+import { ToastContainer } from "react-toastify";
 
 function App() {
 	return (
-		<Fragment>
+		<>
 			<Navbar />
 			<About />
 			<Technolgy />
+			<ToastContainer autoClose={4000} pauseOnFocusLoss={false} />
 			<Projects />
 			<Contact />
 			<Footer />
-		</Fragment>
+		</>
 	);
 }
 
