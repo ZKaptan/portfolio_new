@@ -1,8 +1,8 @@
 import React from "react";
 import netflix_clone from "../images/netflix-clone.jpg";
-import devConnector_logo from "../images/devConnector_logo.png";
+import tradeSourceLogo from "../images/barter.png";
 import houseMarketPlace from "../images/house-market-place.jpg";
-import sorting_visualizer_logo from "../images/lxrcbsv-vVHXeu0YNbk-unsplash.jpg";
+import sortingVisualizerLogo from "../images/lxrcbsv-vVHXeu0YNbk-unsplash.jpg";
 import GridItem from "./GridItem";
 import { Container, SimpleGrid, Text } from "@chakra-ui/layout";
 
@@ -21,11 +21,11 @@ const Projects = () => {
 					description="House market place for you to sell/rent and buy homes"
 				></GridItem>
 				<GridItem
-					id="devconnector"
-					title="Dev Connector"
-					thumnail={devConnector_logo}
-					href="https://github.com/ZKaptan/devconnector"
-					description="Social application for developers"
+					id="tradesource"
+					title="Trade Source"
+					thumnail={tradeSourceLogo}
+					href="https://www.youtube.com/watch?v=Vg7Nq26vPps&t=19s"
+					description="Barter Trader App"
 				></GridItem>
 				<GridItem
 					id="netflixclone"
@@ -37,7 +37,7 @@ const Projects = () => {
 				<GridItem
 					id="sortingvisualizer"
 					title="Sorting Visualizer"
-					thumnail={sorting_visualizer_logo}
+					thumnail={sortingVisualizerLogo}
 					href="https://github.com/ZKaptan/Sorting-Visualizer"
 					description="Interactive sorting visualizer tool"
 				/>

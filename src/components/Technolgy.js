@@ -23,12 +23,28 @@ const Technolgy = () => {
 					React
 				</ListItem>
 				<ListItem
+					m="5px"
+					p="0 10px"
+					borderRadius="50rem"
+					border="1px dashed rgb(83 86 90);"
+				>
+					Vue.js
+				</ListItem>
+				<ListItem
 					p="0 10px"
 					m="5px"
 					borderRadius="50rem"
 					border="1px dashed rgb(83 86 90);"
 				>
-					JavaScript
+					TypeScript
+				</ListItem>
+				<ListItem
+					p="0 10px"
+					m="5px"
+					borderRadius="50rem"
+					border="1px dashed rgb(83 86 90);"
+				>
+					Android
 				</ListItem>
 				<ListItem
 					p="0 10px"

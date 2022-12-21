@@ -5,6 +5,7 @@ import { theme } from "../config/theme";
 import emailjs from "@emailjs/browser";
 import { useRef } from "react";
 import { toast } from "react-toastify";
+import config from "../config"
 import "react-toastify/dist/ReactToastify.css";
 
 const Contact = () => {
@@ -14,11 +15,11 @@ const Contact = () => {
 		e.preventDefault();
 
 		try {
-			await emailjs.sendForm(
-				process.env.REACT_APP_SERVICE_ID,
-				process.env.REACT_APP_TEMPLATE_ID,
+			await emailjs.sendForm(	
+				config.SERVICE_ID,
+				config.TEMPLATE_ID,
 				form.current,
-				process.env.REACT_APP_USER_ID
+				config.PUBLIC_KEY,
 			);
 			toast.success("Email sent successfully");
 		} catch (error) {

@@ -14,7 +14,7 @@ const Footer = () => {
 			mt={10}
 			p="30px"
 		>
-			<Text>&copy; 2021 Deniz Kaptan. All Rights Reserved.</Text>
+			<Text>&copy; 2022 Deniz Kaptan. All Rights Reserved.</Text>
 			<HStack>
 				<Link
 					href="https://github.com/ZKaptan"
