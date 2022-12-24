@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/static/css/main.4ef57598.css",
-    "main.js": "/static/js/main.57a94bad.js",
-    "static/media/house-market-place.jpg": "/static/media/house-market-place.d267bc01f30fe1c357c4.jpg",
+    "main.js": "/static/js/main.bd20debd.js",
+    "static/media/house-market-place.png": "/static/media/house-market-place.880c674be61f0849c8b1.png",
     "static/media/netflix-clone.jpg": "/static/media/netflix-clone.75a95d35c18a29ca14ec.jpg",
-    "static/media/resume.pdf": "/static/media/resume.6a77668072ec59b329e7.pdf",
-    "static/media/lxrcbsv-vVHXeu0YNbk-unsplash.jpg": "/static/media/lxrcbsv-vVHXeu0YNbk-unsplash.4765aed1800a8ad56d5d.jpg",
+    "static/media/sorting-visualizer.png": "/static/media/sorting-visualizer.a73c6e829f153cc1fab6.png",
+    "static/media/tradesource.png": "/static/media/tradesource.85f8c9756e1f1696279b.png",
+    "static/media/resume.pdf": "/static/media/resume.96fe00d0dccc26231418.pdf",
     "static/media/dk.png": "/static/media/dk.bbc74fcd3976adbe701b.png",
-    "static/media/barter.png": "/static/media/barter.a0744d03f52f25229703.png",
     "static/media/github.svg": "/static/media/github.04be58c17b3d5e9744424d414240dd85.svg",
     "index.html": "/index.html",
     "static/media/linkedin.svg": "/static/media/linkedin.27a3f479ca1bbb0ceef19e395081fb94.svg",
     "static/media/youtube.svg": "/static/media/youtube.cb1a56785579560cb80bf1a5dc64c713.svg",
     "main.4ef57598.css.map": "/static/css/main.4ef57598.css.map",
-    "main.57a94bad.js.map": "/static/js/main.57a94bad.js.map"
+    "main.bd20debd.js.map": "/static/js/main.bd20debd.js.map"
   },
   "entrypoints": [
     "static/css/main.4ef57598.css",
-    "static/js/main.57a94bad.js"
+    "static/js/main.bd20debd.js"
   ]
 }
